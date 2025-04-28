@@ -200,7 +200,7 @@ Validate the Retype password text
 
 Type on the Retype Password edit box
     input password    xpath://input[@placeholder = 'Retype password']    test@1234
-    capture page screenshot    ReType-choose-password-{index}.png}
+    capture page screenshot    ReType-choose-password-{index}.png
 
 Validate the Day drop down
     list selection should be    class:day    Day
@@ -312,7 +312,7 @@ Click on the Mobile number drop down and choose Australia as the option
     click element    class:countryCodeText
     # Click on the Australia option
     click element    xpath://li[text()='Australia (+61)']
-    capture page screenshot    mobilenumber-dropdown--{index}.png
+    capture page screenshot    mobilenumber-dropdown-{index}.png
 
 Type the mobile number
     input text    xpath://input[contains(@name, 'mobno')]    234567
