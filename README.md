@@ -1,2 +1,2 @@
 # RobotFrameworkSeleniumGit
-A Selenium Based Robot Frameowrk
+A Selenium Based Robot Framework
