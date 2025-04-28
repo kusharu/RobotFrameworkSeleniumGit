@@ -1,0 +1,17 @@
+Nomenclature of JSON file
+
+{
+    "Page_Name_1":
+        {
+            "ElementName1_LocatorType": "Value_of_locator",
+            "ElementName2_LocatorType": "Value_of_locator",
+        },
+
+
+    "Page_Name_2":
+        {
+            "ElementName1_LocatorType": "Value_of_locator",
+            "ElementName2_LocatorType": "Value_of_locator",
+        }
+
+}

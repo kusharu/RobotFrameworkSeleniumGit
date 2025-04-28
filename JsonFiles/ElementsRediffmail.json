@@ -1,0 +1,19 @@
+{
+  "Registration":
+        {
+          "username_id": "login1",
+          "password_id": "password",
+          "signin_name": "proceed"
+        },
+  "Inbox":
+        {
+          "writemail_xpath": "//*[@id='boxscroll']/li[1]/a",
+          "to_id": "TO_IDcmp2",
+          "subject_xpath": "//*[@id='rd_compose_cmp2']/ul/li[4]/input",
+          "frame_xpath" : "//*[@id='cke_1_contents']/iframe",
+          "compose_area_xpath": "/html/body",
+          "send_xpath": "//*[@id='rd_compose_cmp2']/div[1]/a[1]",
+          "gear_xpath": "/html/body/div[4]/div[1]/div/div/div[2]/a",
+          "logout_xpath" : "/html/body/div[4]/div[1]/div/div/div[2]/ul/li[5]/a"
+        }
+}
