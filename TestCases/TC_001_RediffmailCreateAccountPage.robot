@@ -170,7 +170,8 @@ Type on the Full Name edit box
     capture page screenshot    Full-Name-{index}.png
 
 Validate that the placeholder attribute in Choose Rediffmail ID is Enter Rediffmail ID
-    element attribute value should be    xpath://input[contains(@id, 'login')]      placeholder    Enter Rediffmail ID    Placeholder attribute value is not Enter Rediffmail ID in Choose Rediffmail ID
+    # changing the placehilder attribute value from Enter Rediffmail ID to hi - to deliberately fail it for Jenkins run
+    element attribute value should be    xpath://input[contains(@id, 'login')]      placeholder    Hi    Placeholder attribute value is not Enter Rediffmail ID in Choose Rediffmail ID
 
 Type on Choose Rediffmail Id edit box
     input text    xpath://input[contains(@name, 'login')]    robotraining2025
